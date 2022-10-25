@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: sans-serif;
+    outline: none;
+    /* overflow: hidden; */
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container2 {
+    height: 50px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+
+}
+
+.calculator {
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+        5px 5px 12px rgba(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(4, 68px);
+}
+
+input {
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+        inset 5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 20px;
+    color: rgb(70, 70, 70);
+    font-size: 1.5rem;
+    text-align: end;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+
+
+#input2 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+        inset 5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 20px;
+    color: rgb(70, 70, 70);
+    font-size: 3rem;
+
+}
+
+
+button {
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 50%;
+    margin: 9px;
+    font-size: 18px;
+
+}
+
+/* button:hover{
+    color: #ff0000;
+} */
+
+
+button:active {
+    border-radius: 50%;
+    background-color: #ecf0f3;
+    box-shadow: inset 13px 13px 20px #0dff00,
+                inset 100px 100px 100px #0dff00;
+}
+
+
+.cl:active {
+    border-radius: 50%;
+    background-color: #ecf0f3;
+    box-shadow: inset 13px 13px 20px #f6ff00,
+                inset 100px 100px 100px #f6ff00;
+}
+
+.dl:active {
+    color: white;
+    border-radius: 50%;
+    background-color: #ecf0f3;
+    box-shadow: inset 13px 13px 20px #ff0000,
+                inset 100px 100px 100px #ff0000;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -100px;
+}
+
+#title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -100px;
+}
+
+#description {
+    position: relative;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: -130px;
+
+
+}

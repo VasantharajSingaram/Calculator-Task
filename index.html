@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/calculator-solid.svg" type="image/x-icon">
+    
+    <title>Calculator</title>
+</head>
+<body>
+<h1 id="title">CALCULATOR</h1>
+<div>
+    <p id="description">Create a calculator using DOM</p>
+
+</div>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="result" value="">
+            
+           <button onclick="clearOutput()" id="clear">CL</button>
+            <button onclick="del()" class="dl">DEL</button>
+            <button onclick="percent('%')">%</button>
+            <button onclick="calculate('/')">/</button>
+            <button onclick="calculate(7)" id="7">7</button>
+            <button onclick="calculate(8)" id="8">8</button>   
+            <button onclick="calculate(9)" id="9">9</button>
+            <button onclick="calculate('*')" id="mul">X</button>
+            <button onclick="calculate(4)" id="4">4</button>
+            <button onclick="calculate(5)" id="5">5</button>
+            <button onclick="calculate(6)" id="6">6</button>
+            <button onclick="calculate('-')" id="subtract">-</button>
+            <button onclick="calculate(1)" id="1">1</button>
+            <button onclick="calculate(2)" id="2">2</button>
+            <button onclick="calculate(3)" id="3">3</button>
+            <button onclick="calculate('+')" id="add">+</button>
+            <button onclick="calculate('.')">.</button>
+            <button onclick="calculate('0')" id="0">0</button>
+            <button onclick="sq('sq')">√</button>
+            <button id="equal" onclick="sum()">=</button>
+           
+          
+        </div>
+        
+    </div>
+    
+    
+    <script src="script.js"></script>
+
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+<footer>Press Space To Clear All</footer>
+
+</html>
